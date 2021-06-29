@@ -1,0 +1,11 @@
+mono:
+  replicaCount: 1
+  image:
+    repository: index.docker.io/ethannguyen98/playground
+    tag: v0.0.1
+  port: 8080
+  ingress:
+    enabled: true
+    url: api.pg.godgroup.co
+  timescale:
+    enabled: true
